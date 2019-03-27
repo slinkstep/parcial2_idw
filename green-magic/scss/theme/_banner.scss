@@ -1,0 +1,35 @@
+.main-banner{
+ position: relative;
+ top: 50px;
+
+ &__data{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   flex-wrap: wrap;
+   top:50%;
+   left: 50%;
+   width: 70%;
+   transform: translate(-50%,-50%);
+ }
+
+ &__title{
+   color: white;
+   text-align: center;
+   width: 100%;
+ }
+
+ &__subtitle{
+   color:white;
+   font-size:12px;
+   margin: 0;
+   position: absolute;
+   top: 70%;
+ }
+
+
+ &__img{
+   display: block;
+ }
+
+}

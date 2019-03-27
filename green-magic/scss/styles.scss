@@ -1,0 +1,11 @@
+// Use normalize
+@import "./base/normalize.scss";
+
+// styles
+@import "./variables.scss";
+@import "./base/base.scss";
+@import "./layout/layout.scss";
+@import "./theme/header.scss";
+@import "./modules/modules.scss";
+@import "./theme/banner.scss";
+@import "./theme/main-menu.scss";
